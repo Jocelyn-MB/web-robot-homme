@@ -53,12 +53,12 @@ export default function ModalVideo({
                 <circle id="hero-ill-d" cx="384" cy="216" r="64" />
               </defs>
               <g fill="none" fillRule="evenodd">
-                {/* <circle fillOpacity=".04" fill="url(#hero-ill-a)" cx="384" cy="216" r="128" />
-                <circle fillOpacity=".16" fill="url(#hero-ill-b)" cx="384" cy="216" r="96" /> */}
-                {/* <g fillRule="nonzero">
+                <circle fillOpacity=".04" fill="url(#hero-ill-a)" cx="384" cy="216" r="128" />
+                <circle fillOpacity=".16" fill="url(#hero-ill-b)" cx="384" cy="216" r="96" /> 
+                 <g fillRule="nonzero">
                   <use fill="#000" xlinkHref="#hero-ill-d" />
                   <use fill="url(#hero-ill-e)" xlinkHref="#hero-ill-d" />
-                </g> */}
+                </g>
               </g>
             </svg>
           </div>
