@@ -1,5 +1,7 @@
 import VideoThumb from '@/public/images/hero-image.png'
+// import VideoThumb from '@/public/images/HOMEE.png'
 import ModalVideo from './modal-video'
+
 
 export default function Welcome() {
   return (
@@ -49,7 +51,7 @@ export default function Welcome() {
             thumbWidth={768}
             thumbHeight={432}
             thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
+            video="/VideoHomme.mp4"
             videoWidth={1920}
             videoHeight={1080} />
 
