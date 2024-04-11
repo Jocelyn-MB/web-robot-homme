@@ -17,13 +17,15 @@ export default function QuoteSection() {
           <div className="max-w-lg">
             <blockquote className="mb-11">
               <div className="font-novoApply styles_richtext__vtvls styles_quote__block__aHUoR">
-                <h2>Reconocemos que la salud de las personas y la salud de nuestro planeta están entrelazadas y estamos decididos a desempeñar nuestro papel para asegurar un futuro más sostenible.</h2>
+                <h3>Este proyecto desarrolla un Robot Automatizado con tecnología IoT y sensores para abordar los desafíos del envejecimiento de la población. Ofrece monitoreo continuo de las condiciones ambientales y la frecuencia cardíaca de adultos mayores en sus hogares, con alertas ante posibles emergencias.</h3>
               </div>
             </blockquote>
-            <p className="text-dark font-novoApply text-body">Equipo de trabajo</p>
-            <p className="text-dark font-novoApply text-body">Carapia Hernandez Janet Leilani,
-              Mancilla Blancas Jocelyn Magali,García Mendoza Ángel,Becerril Rosillo Emilio 
+            <p className="text-dark font-novoApply text-sm">Equipo de trabajo:</p>
+            <p className="text-dark font-novoApply text-sm">Carapia Hernandez Janet Leilani,</p>
+              <p className="text-dark font-novoApply text-sm">Mancilla Blancas Jocelyn Magali, </p>
+              <p className="text-dark font-novoApply text-sm">García Mendoza Ángel, 
               </p>
+              <p className="text-dark font-novoApply text-sm">Becerril Rosillo Emilio </p>
           </div>
         </div>
       </div>
