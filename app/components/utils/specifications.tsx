@@ -20,8 +20,10 @@ export default function QuoteSection() {
                 <h2>Reconocemos que la salud de las personas y la salud de nuestro planeta están entrelazadas y estamos decididos a desempeñar nuestro papel para asegurar un futuro más sostenible.</h2>
               </div>
             </blockquote>
-            <p className="text-dark font-novoApply text-body"></p>
-            <p className="text-dark font-novoApply text-body"></p>
+            <p className="text-dark font-novoApply text-body">Equipo de trabajo</p>
+            <p className="text-dark font-novoApply text-body">Carapia Hernandez Janet Leilani,
+              Mancilla Blancas Jocelyn Magali,García Mendoza Ángel,Becerril Rosillo Emilio 
+              </p>
           </div>
         </div>
       </div>

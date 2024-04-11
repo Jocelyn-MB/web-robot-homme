@@ -52,14 +52,14 @@ export default function ModalVideo({
                 </radialGradient>
                 <circle id="hero-ill-d" cx="384" cy="216" r="64" />
               </defs>
-              <g fill="none" fillRule="evenodd">
+              {/* <g fill="none" fillRule="evenodd">
                 <circle fillOpacity=".04" fill="url(#hero-ill-a)" cx="384" cy="216" r="128" />
                 <circle fillOpacity=".16" fill="url(#hero-ill-b)" cx="384" cy="216" r="96" /> 
                  <g fillRule="nonzero">
                   <use fill="#000" xlinkHref="#hero-ill-d" />
                   <use fill="url(#hero-ill-e)" xlinkHref="#hero-ill-d" />
                 </g>
-              </g>
+              </g> */}
             </svg>
           </div>
           <button className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg" onClick={() => setModalOpen(true)}>

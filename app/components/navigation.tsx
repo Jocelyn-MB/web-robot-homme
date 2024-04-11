@@ -38,15 +38,12 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
             
               <li>
-                <Link href="/login" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</Link>
+                <Link href="/login" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Acceso</Link>
               </li>
               <li>
-                <Link href="/signup" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
-                  Sign up
+                <Link href="/acerca" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
+                  Acerca De
                 </Link>
-              </li>
-              <li>
-                <Link href="/contacto" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Contacto</Link>
               </li>
               <li>
                 <Link href="/dashboard" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">
