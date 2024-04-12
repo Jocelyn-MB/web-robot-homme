@@ -35,7 +35,7 @@ export default function ContactForm() {
                       <blockquote className="mb-11">
                         <div className="font-novoApply styles_richtext__vtvls styles_quote__block__aHUoR text-right">
                           <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 pb-4">Integradora II</h4>
-                          <h2>Tecnologías de la Inforcación Área Desarrollo de Softaware Multiplataforma</h2>
+                          <h2>Tecnologías de la Información Área Desarrollo de Softaware Multiplataforma</h2>
                         </div>
                       </blockquote>
                     </div>
@@ -49,7 +49,7 @@ export default function ContactForm() {
                       <div className="max-w-lg">
                         {/* Título */}
                         <div className="text-center md:text-left mb-6">
-                          <h1 className="text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 text-right bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400" data-aos="zoom-y-out">Problematica</h1>
+                          <h1 className="text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 text-right bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400" data-aos="zoom-y-out">Problematíca</h1>
                         </div>
                         {/* Texto */}
                         <blockquote className="mb-11">
@@ -88,21 +88,24 @@ export default function ContactForm() {
                 
             {/* Section Vinil */}
             <div className="grid md:grid-cols-12 max-w-6xl mx-auto px-4 sm:px-6 pt-14 pb-14 text-center">
-  {/* Imagen */}
-  <figure className="relative overflow-hidden aspect-portrait col-span-full md:col-start-3 md:col-span-8 text-center ">
-    <Image
-      src="/images/Vinil .jpg"
-      alt="Proyecto Homme"
-      width={3840}
-      height={2560}
-      layout="responsive"
-    />
-  </figure>
-</div>
+            {/* Imagen */}
+            <figure className="relative overflow-hidden aspect-portrait col-span-full md:col-start-3 md:col-span-8 text-center ">
+              <Image
+                src="/images/Vinil .jpg"
+                alt="Proyecto Homme"
+                width={3840}
+                height={2560}
+                layout="responsive"
+              />
+            </figure>
+          </div>
 
              {/* Video */}
              <div className="grid md:grid-cols-12 max-w-6xl mx-auto px-4 sm:px-6 pb-14 text-center">
-                    {/* Aplicando padding al texto */}
+                    {/* Título */}
+                    <div className="text-center md:text-left mb-6 ">
+                          <h1 className="text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 text-left bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400" data-aos="zoom-y-out">Video</h1>
+                        </div>
                     <div className="relative overflow-hidden aspect-portrait col-span-full md:col-start-3 md:col-span-8 text-center">
                       {/* Video */}
                       <video width="100%" controls>
